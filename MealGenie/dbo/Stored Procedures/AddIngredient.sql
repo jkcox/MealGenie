@@ -7,8 +7,10 @@ BEGIN
 	SET NOCOUNT ON;
 
 	INSERT INTO [dbo].[Ingredient]
-	([Name] ,[MeasurementTypeId] ,[Quantity] ,[Created]) VALUES
-	(@Name, @MeasurementTypeId, 0, GETDATE())
+	([Name] ,[MeasurementTypeId] ,[Created]) VALUES
+	(@Name, @MeasurementTypeId, GETDATE())
+
+	-- TODO: this should add a pantry ingredient with a quantity of zero...
 
 	SET @IngredientId = @@IDENTITY
 
