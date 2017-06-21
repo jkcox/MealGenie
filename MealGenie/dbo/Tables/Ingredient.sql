@@ -2,7 +2,6 @@
 	[IngredientId] [int] IDENTITY(1,1) NOT NULL,
 	[Name] [nvarchar](250) NOT NULL,
 	[MeasurementTypeId] [int] NOT NULL,
-	[Quantity] [int] NOT NULL,
 	[Created] [datetime] NOT NULL,
  CONSTRAINT [PK_Ingredient] PRIMARY KEY CLUSTERED 
 (

@@ -5,7 +5,7 @@ AS
 BEGIN
 	SET NOCOUNT ON;
 
-	-- TODO: add a list of ingredient ids...
+	-- TODO: add a list of ingredient ids and quantities (MealIngredient)
 
 	INSERT INTO [dbo].[Meal]
 	([Name] ,[Created]) VALUES

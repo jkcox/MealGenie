@@ -71,14 +71,18 @@
     <Build Include="dbo\Stored Procedures\AddMeal.sql" />
     <Build Include="dbo\Stored Procedures\GetMealById.sql" />
     <Build Include="dbo\Stored Procedures\GetPotentialMeals.sql" />
-    <Build Include="dbo\Stored Procedures\UpdateIngredient.sql" />
+    <Build Include="dbo\Stored Procedures\UpdatePantryIngredient.sql" />
     <None Include="Scripts\ScriptsIgnoredOnImport.sql" />
     <Build Include="dbo\Stored Procedures\GetMeasurementTypes.sql" />
+    <Build Include="dbo\Tables\PantryIngredient.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MealGenie.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\SeedData.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="MealGenie.refactorlog" />
   </ItemGroup>
 </Project>
