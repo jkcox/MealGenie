@@ -7,6 +7,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MealGenie", "MealGenie\Meal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealGenie.DB", "MealGenie.DB\MealGenie.DB.csproj", "{0DC7625D-DF8A-4B22-AE18-6BEEF9EDD308}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealGenie.ConsoleApp", "MealGenie.ConsoleApp\MealGenie.ConsoleApp.csproj", "{8E20BEB1-95C7-45EC-90BB-643F44F71124}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{0DC7625D-DF8A-4B22-AE18-6BEEF9EDD308}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DC7625D-DF8A-4B22-AE18-6BEEF9EDD308}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DC7625D-DF8A-4B22-AE18-6BEEF9EDD308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E20BEB1-95C7-45EC-90BB-643F44F71124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E20BEB1-95C7-45EC-90BB-643F44F71124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E20BEB1-95C7-45EC-90BB-643F44F71124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E20BEB1-95C7-45EC-90BB-643F44F71124}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

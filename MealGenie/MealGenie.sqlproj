@@ -73,8 +73,12 @@
     <Build Include="dbo\Stored Procedures\GetPotentialMeals.sql" />
     <Build Include="dbo\Stored Procedures\UpdateIngredient.sql" />
     <None Include="Scripts\ScriptsIgnoredOnImport.sql" />
+    <Build Include="dbo\Stored Procedures\GetMeasurementTypes.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MealGenie.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\SeedData.sql" />
   </ItemGroup>
 </Project>
