@@ -1,0 +1,42 @@
+﻿@model MealGenieMVC.Models.Ingredient
+
+@{
+    ViewData["Title"] = "Add";
+}
+
+<h1>Add Ingredient</h1>
+<form asp-action="Add" method="post">
+    <div class="form-horizontal">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="Name" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="MeasurementTypeId" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <span asp-validation-for="MeasurementTypeId" class="text-danger"></span>
+                <select asp-for="MeasurementTypeId">
+                    <option value="1">cup</option>
+                    <option value="2">oz</option>
+                    <option value="3">gallon</option>
+                    <option value="4">lb</option>
+                    <option value="5">gram</option>
+
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+<div>
+    <a asp-action="Index">Back to Index page</a>
+    @ViewData["Message"]
+</div>

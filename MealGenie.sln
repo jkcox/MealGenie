@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MealGenie", "MealGenie\MealGenie.sqlproj", "{6D5CA169-25D8-4CE2-AE65-27BC5FCFCDF1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealGenie.DB", "MealGenie.DB\MealGenie.DB.csproj", "{0DC7625D-DF8A-4B22-AE18-6BEEF9EDD308}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealGenie.ConsoleApp", "MealGenie.ConsoleApp\MealGenie.ConsoleApp.csproj", "{8E20BEB1-95C7-45EC-90BB-643F44F71124}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MealGenieMVC", "MealGenieMVC\MealGenieMVC.csproj", "{B55BBAE4-75D9-4A64-99D3-790BCBA8A324}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{8E20BEB1-95C7-45EC-90BB-643F44F71124}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E20BEB1-95C7-45EC-90BB-643F44F71124}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E20BEB1-95C7-45EC-90BB-643F44F71124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B55BBAE4-75D9-4A64-99D3-790BCBA8A324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B55BBAE4-75D9-4A64-99D3-790BCBA8A324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B55BBAE4-75D9-4A64-99D3-790BCBA8A324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B55BBAE4-75D9-4A64-99D3-790BCBA8A324}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
